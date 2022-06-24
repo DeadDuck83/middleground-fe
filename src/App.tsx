@@ -1,5 +1,8 @@
 import React from 'react';
-import logo from './logo.svg';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Home from './Containers/Home';
+import About from './Containers/About';
+import Contact from './Containers/Contact';
 
 function App() {
   return (
@@ -9,6 +12,15 @@ function App() {
           It looks so gooooood!
         </p>
       </header>
+      <body>
+        <Router>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/contact" element={<Contact />} />
+          </Routes>
+        </Router>
+      </body>
     </div>
   );
 }
