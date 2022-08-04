@@ -1,7 +1,7 @@
 import React from 'react';
+// TODO : Add your code here
 
 const Contact = () => {
-  // TODO: Add your code here
   return (
     <div
       style={{
