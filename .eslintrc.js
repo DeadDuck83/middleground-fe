@@ -21,7 +21,7 @@ module.exports = {
     ecmaFeatures: {
       jsx: true,
     },
-    ecmaVersion: 2018,
+    ecmaVersion: 'es6',
     sourceType: 'module',
     project: './tsconfig.json',
     createDefaultProgram: true,
