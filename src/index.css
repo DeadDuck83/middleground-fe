@@ -5,9 +5,25 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  height: 100%;
+  display: grid;
+  align-items: flex-start;
+  background-color: lightgray;
+}
+header {
+  height: 100%;
+  background-color: azure;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.wrapper {
+  display: grid;
+  align-items: center;
+  grid-template-rows: 30px 1fr;
+  justify-content: center;
+  /* height: 100vh; */
 }

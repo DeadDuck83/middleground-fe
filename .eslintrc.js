@@ -28,6 +28,7 @@ module.exports = {
   },
   rules: {
     'linebreak-style': 'off',
+    // '@typescript-eslint/rule-name': 'error',
     '@typescript-eslint/ban-ts-comment': 'off',
     '@typescript-eslint/no-explicit-any': 'off',
     'prettier/prettier': [
